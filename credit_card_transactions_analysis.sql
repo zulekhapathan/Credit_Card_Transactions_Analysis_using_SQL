@@ -127,7 +127,10 @@ group by city
 having count(1)=2
 order by datedif;
 
+------------------------------------------------------------------------------------------------------------------------------
+
 --10.query to find the percentage contribution of spends by females for each expense type.
+
 select exp_type, 
 sum(case when gender='F' then amount else 0 end)*1.0/sum(amount) as percentage_female_spents from credit_card_transcations
 group by exp_type
