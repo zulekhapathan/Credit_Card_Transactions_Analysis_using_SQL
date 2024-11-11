@@ -1,4 +1,4 @@
-# Credit_Card_Transactions_Analysis_using_SQL
+# Credit_Card_Spending_Habits_in_India_using_SQL
 
 The dataset downloaded from Kaggle 
 
